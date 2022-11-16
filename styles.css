@@ -10,7 +10,8 @@
 
 
 html {
-    background-color: hsl(218, 28%, 13%);
+    font-family: 'Open Sans';
+    background-color: hsl(217, 28%, 15%);
     font-size: 14px;
 }
 
@@ -36,4 +37,46 @@ header {
 .side_menu p:hover {
     font-weight: bold;
     cursor: pointer;
+}
+
+.intro_img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 450px;
+}
+
+.bg_curvy {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 700px;
+    z-index: -1;
+}
+
+.first_section {
+    position: relative;
+    top: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 650px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.card1 h1 {
+    font-size: 40px;
+}
+
+.card1 button {
+    padding: 10px 65px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 }
