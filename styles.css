@@ -13,3 +13,27 @@ html {
     background-color: hsl(218, 28%, 13%);
     font-size: 14px;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    padding: 20px;
+}
+
+.side_menu {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: antiquewhite;
+}
+
+.side_menu p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+.side_menu p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
