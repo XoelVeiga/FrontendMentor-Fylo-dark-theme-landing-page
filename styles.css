@@ -21,6 +21,18 @@ header {
     padding: 20px;
 }
 
+button {
+    padding: 10px 65px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+button:hover {
+    background-image: none;
+    background-color: hsl(198, 60%, 50%);
+}
+
 .side_menu {
     display: flex;
     align-items: center;
@@ -74,14 +86,27 @@ header {
     font-size: 40px;
 }
 
-button {
-    padding: 10px 65px;
-    border-radius: 20px;
-    color: white;
-    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+.second_section {
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 650px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
 }
 
-button:hover {
-    background-image: none;
-    background-color: hsl(198, 60%, 50%);
+.second_section_row {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
 }
