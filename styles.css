@@ -49,6 +49,7 @@ button:hover {
 .side_menu p:hover {
     font-weight: bold;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .intro_img {
@@ -91,9 +92,6 @@ button:hover {
     display: block;
     position: relative;
     top: 650px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: aliceblue;
 }
 
 .second_section_row {
@@ -104,9 +102,12 @@ button:hover {
 .card {
     text-align: center;
     color: white;
-    width: 250px;
+    width: 400px;
     height: 300px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: aliceblue;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card img {
+    height: 85px;
 }
