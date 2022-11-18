@@ -13,6 +13,7 @@ html {
     font-family: 'Open Sans';
     background-color: hsl(217, 28%, 15%);
     font-size: 14px;
+    width: 100%;
 }
 
 header {
@@ -60,12 +61,12 @@ button:hover {
     bottom: 450px;
 }
 
+
 .bg_curvy {
     display: flex;
     justify-content: center;
-    width: 100%;
     position: absolute;
-    top: 700px;
+    top: 600px;
     z-index: -1;
 }
 
@@ -97,6 +98,7 @@ button:hover {
 .second_section_row {
     display: flex;
     justify-content: center;
+    background-color: hsl(218, 28%, 13%);
 }
 
 .card {
@@ -110,4 +112,47 @@ button:hover {
 
 .card img {
     height: 85px;
+}
+
+.third_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 650px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.third_section img {
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.third_section_text {
+    color: white;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.third_section_last_div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: underline;
+    color: hsl(198, 60%, 50%);
+}
+
+
+
+.third_section_last_div img {
+    margin: -35px;
+    height: 15px;
+    width: 15px;
+}
+
+.third_section_last_div:hover {
+    color: white;
+
 }
