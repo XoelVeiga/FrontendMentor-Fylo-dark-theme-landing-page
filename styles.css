@@ -156,3 +156,16 @@ button:hover {
     color: white;
 
 }
+
+.fourth_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 650px;
+    color: white;
+    background-color: hsl(218, 28%, 13%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
