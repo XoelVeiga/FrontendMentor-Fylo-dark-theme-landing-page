@@ -26,6 +26,7 @@ button {
     padding: 10px 65px;
     border-radius: 20px;
     color: white;
+    border: none;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 }
 
@@ -162,19 +163,20 @@ button:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 160px;
+    bottom: 360px;
     color: white;
     background-color: hsl(218, 28%, 13%);
     padding-top: 100px;
     padding-bottom: 100px;
-    ;
+    height: 700px;
+    z-index: -1;
 }
 
 .fourth_section_bg {
     position: relative;
     bottom: 110px;
     left: 75px;
-    z-index: 0;
+    z-index: -2;
 }
 
 .review_card {
@@ -209,5 +211,39 @@ button:hover {
 .review_card_bottom_text p {
     margin-top: -5px;
     font-size: 10px;
-    ;
+}
+
+.fifth_section {
+    position: relative;
+    bottom: 475px;
+    display: flex;
+    justify-content: center;
+}
+
+.fifth_section_card {
+    display: block;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    color: white;
+    padding-top: 5px;
+    padding: 5px 50px 25px 50px;
+    width: 650px;
+}
+
+.fifth_section_form {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fifth_section_form button {
+    margin-left: 20px;
+    padding: 10px 20px;
+}
+
+.fifth_section_form input {
+    width: 70%;
+    border-radius: 25px;
 }
