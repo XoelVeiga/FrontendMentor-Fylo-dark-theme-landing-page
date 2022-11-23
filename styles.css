@@ -23,6 +23,7 @@ header {
 }
 
 button {
+    cursor: pointer;
     padding: 10px 65px;
     border-radius: 20px;
     color: white;
@@ -68,7 +69,7 @@ button:hover {
     justify-content: center;
     position: relative;
     top: 650px;
-    width: 1440px;
+    width: 100%;
     z-index: -1;
 }
 
@@ -155,7 +156,7 @@ button:hover {
 
 .third_section_last_div:hover {
     color: white;
-
+    cursor: pointer;
 }
 
 .fourth_section {
@@ -247,4 +248,82 @@ button:hover {
 .fifth_section_form input {
     width: 70%;
     border-radius: 25px;
+}
+
+footer {
+    margin-top: -563px;
+    background-color: hsl(216, 53%, 9%);
+    z-index: -1;
+    color: white;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.footer {
+    padding-top: 200px;
+}
+
+.footer_img {
+    padding-left: 65px;
+}
+
+.footer_core {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer_core img {
+    margin-right: 20px;
+}
+
+.footer_core_first {
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_core_second {
+    width: 300px;
+    display: block;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+
+.footer_core_second_text {
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.footer_core_third,
+.footer_core_fourth {
+    padding-top: 60px;
+    width: 150px;
+    display: block;
+    padding-right: 20px;
+}
+
+.footer_core_third p:hover,
+.footer_core_fourth p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer_core_fifth {
+    padding-top: 75px;
+    padding-right: 20px;
+}
+
+.footer_core_fifth i {
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.footer_core_fifth i:hover {
+    border-color: hsl(198, 60%, 50%);
+    color: hsl(198, 60%, 50%);
 }
