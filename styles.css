@@ -327,3 +327,146 @@ footer {
     border-color: hsl(198, 60%, 50%);
     color: hsl(198, 60%, 50%);
 }
+
+@media (max-width: 650px) {
+    .intro_img {
+        height: 350px;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .bg_curvy {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 325px;
+        width: 100%;
+    }
+
+    .first_section {
+        position: relative;
+        bottom: 125px;
+        background-color: hsl(218, 28%, 13%);
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .card1 {
+        width: 350px;
+    }
+
+    .second_section {
+        position: relative;
+        bottom: 125px;
+    }
+
+    .card {
+        width: 350px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second_section_row {
+        display: block;
+    }
+
+    .third_section {
+        position: relative;
+        padding-top: 150px;
+        bottom: 125px;
+        width: 100%;
+        display: block;
+        text-align: justify;
+
+    }
+
+    .third_section_img {
+        margin-left: 15%;
+    }
+
+    .third_section_text {
+        margin-left: auto;
+        width: 350px;
+        margin-right: auto;
+    }
+
+    .fourth_section {
+        position: relative;
+        bottom: 125px;
+        display: block;
+        padding-bottom: 250px;
+    }
+
+    .fourth_section_bg {
+        position: relative;
+        top: 35px;
+        left: 90px;
+        z-index: -2;
+    }
+
+    .review_card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fifth_section {
+        position: relative;
+        bottom: 250px;
+    }
+
+    .fifth_section_card {
+        width: 325px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fifth_section_form {
+        display: block;
+
+    }
+
+    .fifth_section_form input {
+        width: 325px;
+        padding: 15px;
+        border-radius: 25px;
+        margin-left: -15px;
+    }
+
+    .fifth_section_form button {
+        padding: 15px;
+        width: 360px;
+        margin-top: 20px;
+        margin-left: -15px;
+        border-radius: 25px;
+    }
+
+    footer {
+        margin-top: -450px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        width: 100%;
+    }
+
+    .footer_core {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer_core_first,
+    .footer_core_second,
+    .footer_core_third,
+    .footer_core_fourth,
+    .footer_core_fifth {
+        width: 325px;
+        padding-right: 0px;
+        margin-left: 55px;
+    }
+
+    .footer_core_fifth {
+        margin-left: 40%;
+    }
+
+
+}
